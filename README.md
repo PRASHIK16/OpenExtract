@@ -25,22 +25,3 @@ Authentication: JSON-based user auth
 
 Environment: Virtualenv (venv)
 
-📂 Project Structure
-graphql
-Copy
-Edit
-Financial_data_extraction_using_openai_api/
-│
-├── analysis/                # For analysis scripts
-├── database/                # Database or data handling
-├── parser/                  # Parsing logic
-├── venv/                    # Virtual environment
-├── api_key.py               # OpenAI API key storage
-├── backend.py               # Core backend logic
-├── main.py                  # Entry point for Streamlit
-├── openapi_helper.py        # Functions interacting with OpenAI
-├── requirements.txt         # Dependencies
-├── streamlit_app.py         # Additional streamlit UI logic
-├── test_auth_flow.py        # Auth flow tests
-├── users.json               # User data for login
-└── utils.py                 # Utility functions
